@@ -1,0 +1,46 @@
+{
+    "vulnerabilities": [
+        {
+            "id": "CVE-2024-6387",
+            "description": "Критическая уязвимость в OpenSSH",
+            "cvss": 9.8,
+            "affected": "OpenSSH < 4.4p1"
+        },
+        {
+            "id": "CVE-2025-1234",
+            "description": "Уязвимость удаленного выполнения кода в Apache",
+            "cvss": 9.1,
+            "affected": "Apache 2.4.49"
+        },
+        {
+            "id": "CVE-2025-5678",
+            "description": "Отказ в обслуживании в DNS BIND",
+            "cvss": 7.5,
+            "affected": "BIND 9.16-9.18"
+        },
+        {
+            "id": "CVE-2024-4321",
+            "description": "Межсайтовый скриптинг в WordPress",
+            "cvss": 6.1,
+            "affected": "WP < 6.4"
+        },
+        {
+            "id": "CVE-2024-1111",
+            "description": "Уязвимость повышения привилегий в Linux",
+            "cvss": 7.8,
+            "affected": "Linux Kernel 5.x"
+        },
+        {
+            "id": "CVE-2023-9876",
+            "description": "Небезопасная десериализация в Java",
+            "cvss": 8.5,
+            "affected": "Java 11-17"
+        },
+        {
+            "id": "CVE-2025-4321",
+            "description": "SQL-инъекция в phpMyAdmin",
+            "cvss": 8.0,
+            "affected": "phpMyAdmin < 5.2"
+        }
+    ]
+}

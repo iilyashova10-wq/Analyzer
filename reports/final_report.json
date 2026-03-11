@@ -1,0 +1,69 @@
+{
+    "timestamp": "2026-03-11 13:53:46",
+    "statistics": {
+        "total_dns_queries": 15,
+        "suspicious_dns_queries": 8,
+        "total_vulnerabilities": 7,
+        "critical_vulnerabilities": 6
+    },
+    "suspicious_ips": [
+        {
+            "ip_address": "192.168.1.105",
+            "suspicious_count": 4,
+            "threat_level": "КРИТИЧЕСКИЙ"
+        },
+        {
+            "ip_address": "192.168.1.130",
+            "suspicious_count": 2,
+            "threat_level": "ВЫСОКИЙ"
+        },
+        {
+            "ip_address": "192.168.1.120",
+            "suspicious_count": 1,
+            "threat_level": "СРЕДНИЙ"
+        },
+        {
+            "ip_address": "192.168.1.110",
+            "suspicious_count": 1,
+            "threat_level": "СРЕДНИЙ"
+        }
+    ],
+    "critical_vulnerabilities": [
+        {
+            "id": "CVE-2024-6387",
+            "cvss": 9.8,
+            "description": "Критическая уязвимость в OpenSSH"
+        },
+        {
+            "id": "CVE-2025-1234",
+            "cvss": 9.1,
+            "description": "Уязвимость удаленного выполнения кода в Apache"
+        },
+        {
+            "id": "CVE-2025-5678",
+            "cvss": 7.5,
+            "description": "Отказ в обслуживании в DNS BIND"
+        },
+        {
+            "id": "CVE-2024-1111",
+            "cvss": 7.8,
+            "description": "Уязвимость повышения привилегий в Linux"
+        },
+        {
+            "id": "CVE-2023-9876",
+            "cvss": 8.5,
+            "description": "Небезопасная десериализация в Java"
+        },
+        {
+            "id": "CVE-2025-4321",
+            "cvss": 8.0,
+            "description": "SQL-инъекция в phpMyAdmin"
+        }
+    ],
+    "actions_taken": {
+        "blocked_ips": [
+            "192.168.1.105"
+        ],
+        "notifications_sent": true
+    }
+}
